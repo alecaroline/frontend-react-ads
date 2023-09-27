@@ -1,8 +1,11 @@
-//Componente no React --> função que devolve um trecho de HTML
+import Header from "@/components/layout/Header"
 
 const Home = () => {
   return (
-    <h1>Hello World React</h1>
+    <>
+      <Header />
+      <h1>Hello World React!</h1>
+    </>
   )
 }
 

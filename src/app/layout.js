@@ -1,22 +1,17 @@
-import Header from '@/components/layout/Header'
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from "@/components/layout/Header"
 
 export const metadata = {
-  title: 'Create Next App',
-  description: 'Next Project with Next.js',
+  title: 'App React',
+  description: 'React Project with Next.js',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <span>Sou o Header</span>
-        <Header/>
-        {children}</body>
+        {children}
+      </body>
     </html>
   )
 }
-
